@@ -1,11 +1,11 @@
 import React from 'react';
-import { Button } from 'antd'
+import ButtonPage from './example-pages/button'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Button type="primary">Hello Antd!</Button>
+      <ButtonPage />
     </div>
   );
 }
