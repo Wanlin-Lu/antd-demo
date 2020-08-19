@@ -1,11 +1,26 @@
 import React from 'react';
-import ButtonPage from './example-pages/button'
+import { Layout } from 'antd'
+import Header from './layout-page/Header'
+import Sider from './layout-page/Sider'
+import Content from './layout-page/Content'
+import Footer from './layout-page/Footer'
+
 import './App.css';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <ButtonPage />
+      <Layout>
+        <Header />
+        <Layout>
+          <Sider />
+          <Content />
+        </Layout>
+        <Footer />
+      </Layout>
     </div>
   );
 }
