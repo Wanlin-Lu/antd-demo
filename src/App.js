@@ -5,7 +5,7 @@ import Sider from './layout-page/Sider'
 import Content from './layout-page/Content'
 import Footer from './layout-page/Footer'
 
-import './App.css';
+import './App.less';
 
 
 
