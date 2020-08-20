@@ -4,11 +4,7 @@ import {PlusCircleOutlined} from '@ant-design/icons'
 
 
 const Footer = () => {
-  return (
-    <Layout.Footer>
-      <PlusCircleOutlined />
-    </Layout.Footer>
-  )
+  return <Layout.Footer>Ant Design ©2018 Created by Ant UED</Layout.Footer>;
 }
 
 export default Footer

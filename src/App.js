@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout } from 'antd'
+import { Layout, Row, Col } from 'antd'
 import Header from './layout-page/Header'
 import Sider from './layout-page/Sider'
 import Content from './layout-page/Content'
@@ -12,16 +12,16 @@ import './App.less';
 
 function App() {
   return (
-    <div className="App">
-      <Layout>
+    <Layout>
+      <Row>
         <Header />
-        <Layout>
-          <Sider />
-          <Content />
-        </Layout>
-        <Footer />
-      </Layout>
-    </div>
+      </Row>
+      <Row>
+        <Sider />
+        <Content />
+      </Row>
+      <Footer />
+    </Layout>
   );
 }
 
