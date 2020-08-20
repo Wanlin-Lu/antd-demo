@@ -1,11 +1,12 @@
 import React from 'react'
-import { Layout, Menu } from 'antd'
+import { Layout, Menu, Col } from 'antd'
 import { PieChartOutlined } from '@ant-design/icons'
 
 const { SubMenu } = Menu
 
 const Sider = () => {
   return (
+
     <Layout.Sider
       breakpoint="lg"
       collapsedWidth="0"
