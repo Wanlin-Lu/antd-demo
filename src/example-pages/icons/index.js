@@ -7,22 +7,41 @@ import {
   StepForwardFilled,
   AccountBookTwoTone,
   AlertTwoTone,
-} from '@ant-design/icons'
+  HomeOutlined,
+  SettingFilled,
+  SmileOutlined,
+  SyncOutlined,
+  LoadingOutlined,
+  SmileTwoTone,
+  HeartTwoTone,
+  CheckCircleTwoTone,
+} from "@ant-design/icons";
+
+import './style.less'
 
 const IconsPage = () => {
   return (
     <React.Fragment>
-      <Col>
+      <Col className="icons-list">
+        <HomeOutlined />
+        <SettingFilled />
+        <SmileOutlined />
+        <SyncOutlined spin />
+        <SmileOutlined rotate={180} />
+        <LoadingOutlined />
         <StepBackwardOutlined />
         <StepForwardOutlined />
       </Col>
-      <Col>
+      <Col className="icons-list">
         <Tooltip title="step back">
           <StepBackwardFilled />
         </Tooltip>
         <StepForwardFilled />
+        <SmileTwoTone />
+        <HeartTwoTone twoToneColor="#eb2f96" />
+        <CheckCircleTwoTone twoToneColor="#52c41a" />
       </Col>
-      <Col>
+      <Col className="icons-list">
         <AccountBookTwoTone />
         <AlertTwoTone />
       </Col>
