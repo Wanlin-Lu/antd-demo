@@ -1,27 +1,13 @@
 import React from 'react';
-import { Layout, Row, Col } from 'antd'
-import Header from './layout-page/Header'
-import Sider from './layout-page/Sider'
-import Content from './layout-page/Content'
-import Footer from './layout-page/Footer'
-
+import { Layout } from 'antd'
+import { CheckCircleTwoTone } from '@ant-design/icons'
 import './App.less';
-
-
-
 
 function App() {
   return (
-    <Layout>
-      <Row>
-        <Header />
-      </Row>
-      <Row>
-        <Sider />
-        <Content />
-      </Row>
-      <Footer />
-    </Layout>
+    <Layout.Header>
+      <CheckCircleTwoTone />
+    </Layout.Header>
   );
 }
 
