@@ -44,6 +44,7 @@ const IconsPage = () => {
       <Col className="icons-list">
         <AccountBookTwoTone />
         <AlertTwoTone />
+        <AlertTwoTone />
       </Col>
     </React.Fragment>
   );
